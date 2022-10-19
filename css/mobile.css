@@ -45,8 +45,6 @@
         display: none;
     }
     .footer_paragraf div{
-        display: flex;
-        flex-wrap: wrap;
         width: 86px;
         height: 18px;
         margin-right: 33px;
