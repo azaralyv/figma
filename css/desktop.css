@@ -1,15 +1,18 @@
 @media (min-width: 1400px){
-    .info-container{
+    wrapper{
+
+    }
+    .container{
         margin-top: 91px;
         margin-left: 124px;
         margin-right: 150px;
     }
+    main{
+        justify-content: space-between;
+        margin-bottom: 94px;
+    }
     header h1{
         font-size: 55px;
-    }
-    main{
-        margin-bottom: 94px;
-        justify-content: space-between;
     }
     .paragraf{
         width: 662px;
@@ -22,34 +25,36 @@
     .img_1{
         width: 314px;
         height: 315px;
-    }
-    .img_1 .img_1_1{
-        width: 314px;
-        height: 315px;
+        position: relative;
     }
     .img_1 .img_1_2{
         width: 366px;
-        top: 286px;
         height: 59px;
-        left: 16px;
+        top: 286px;
     }
     footer{
         height: 203px;
-        margin-bottom: 100px;
+        margin-bottom: 157px;
     }
-    footer .img_2{
+    .img_2{
         width: 232px;
         height: 203px;
-        margin-right: 132px;
         margin-bottom: 173px;
+        margin-right: 132px;
     }
-    .footer_p div{
+    .img_2 .img_2_2{
+        position: absolute;
+        width: 189px;
+        height: 32px;
+        left: 157px;
+        top: 835px;
+        z-index: -1;
+    } 
+    .footer_paragraf div{
         width: 150px;
         height: 39px;
         margin-right: 95px;
-        font-size: 18px;
+        font-size: 18px
     }
-    .footer_p h3{
-        font-size: 25px;
-    }
+
 }
