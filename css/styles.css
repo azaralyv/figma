@@ -33,10 +33,10 @@ main{
 footer{
     display: flex;
 }
-/* .img_2 .img_2_2{
+ .img_2 .img_2_2{
     position: absolute;
     z-index: -1;
-} */
+} 
 .footer_paragraf{
     display: flex;
     width: 100%;
